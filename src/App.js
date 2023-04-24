@@ -1,14 +1,16 @@
 import './App.css';
-import { Header } from './components/Header';
-import { Home } from './pages/Home';
+import { Banner } from './components/banner';
+import HeaderNoticia from './components/headerNoticia';
+import { Noticia } from './pages/Noticia';
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <HeaderNoticia/>
+      <Banner/>
       <div className="mainScroll"> 
-      <Home/>
+       <Noticia/>
       </div>
     </div>
   );
