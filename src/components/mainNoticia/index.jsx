@@ -9,6 +9,10 @@ import castle from "./image-49.png";
 import grades from "./image-50.png";
 import education from "./image-51.png";
 import speeches from "./image-52.png";
+import card from './Rectangle-235.png'
+import foto from './Rectangle-262.png'
+import start from './start.png';
+import vision from './vision.png'
 
 import "./styles.css";
 
@@ -117,7 +121,7 @@ export function MainNoticia() {
           <div className="cards">
             <img src={castle} alt="castle" />
             <div>
-              <h4>Mercado de trabalho</h4>
+              <h4 style={{color: "#517BB3"}}>Mercado de trabalho</h4>
               <h5>Gamificação: saiba como ela pode…</h5>
             </div>
           </div>
@@ -125,7 +129,7 @@ export function MainNoticia() {
           <div className="cards">
             <img src={grades} alt="grades" />
             <div>
-              <h4>Negócios</h4>
+              <h4 style={{color: "#958186"}}>Negócios</h4>
               <h5>Por que trabalhar com propósito ?</h5>
             </div>
           </div>
@@ -133,16 +137,36 @@ export function MainNoticia() {
           <div className="cards">
             <img src={education} alt="education" />
             <div>
-              <h4>Educação</h4>
+              <h4 style={{color: "#353A3E"}}>Educação</h4>
               <h5>Por que contratar treinamentos…</h5>
             </div>
           </div>
 
           <div className="cards">
-            <img src={speeches} alt="castle" />
+            <img src={speeches} alt="speeches" />
             <div>
-              <h4>Educação</h4>
+              <h4 style={{color: "#353A3E"}}>Educação</h4>
               <h5>O que levar em consideração…</h5>
+            </div>
+          </div>
+
+          <div className="cardBanner">
+            <img style={{margin: "70px 0px"}} src={card} alt="cardbanner" />
+            <h2>Se interessou pelo assunto? </h2>
+            <p>Então dá uma olhada nesse curso gratuito que a Télos te oferece:</p>
+          </div>
+
+          <div className="fotoBanner">
+            <img style={{marginTop: "-3rem"}} src={foto} alt="foto" />
+            <h2>Se interessou pelo assunto? </h2>
+            <div className="start" style={{display: "flex", alignItems: "center", gap: "11px"}}>
+              <img src={start} alt="start" />
+               <span>8 de 10</span>
+            </div>
+            <p>Você irá sair sabendo sobre liderança e comunicação.</p>
+            <div className="details">
+              <img src={vision} alt="" />
+              <a href="#">Ver detalhes</a>
             </div>
           </div>
         </div>

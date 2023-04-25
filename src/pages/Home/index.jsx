@@ -1,6 +1,7 @@
 import React from "react";
 import CardHome from "../../components/CardHome";
 import CardsHome from "../../components/CardsHome";
+import CardsHomes from "../../components/CardsHomes";
 import './styles.css';
 import SectionCardPrimary from "../../components/SectionCardprimary";
 import SectionCardSegundary from "../../components/SectionCardSegundary";
@@ -10,7 +11,6 @@ import FooterCardtertiary from "../../components/footerCardtertiary";
 import cardTertiary from '../../components/footerCardtertiary/Rectangle-228.png'
 import cardSegundary from '../../components/footerCardsegundary/Rectangle-229.png'
 import cardPrimary from '../../components/footerCardprimary/Rectangle-227.png'
-
 
 export function Home() {
   const noticia = [ {
@@ -29,7 +29,7 @@ export function Home() {
             <CardsHome
               text="Por que trabalhar com propósito ?"
             />
-            <CardsHome
+            <CardsHomes
               text="3 Tendência sobre o futuro do trabalho"
             />
           </div>

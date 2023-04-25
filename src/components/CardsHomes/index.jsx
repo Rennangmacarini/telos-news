@@ -5,14 +5,14 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Logo from './image-43.png'
+import image from './image-42.png'
 
-export default function CardsHome({text}) {
+export default function CardsHomes({text}) {
   return (
     <Card sx={{ maxWidth: 216, backgroundColor: "#FEF7FF", padding: "13px" }}>
       <CardMedia
         sx={{ height: 200, borderRadius: "18px" }}
-        image={Logo}
+        image={image}
       />
       <CardContent>
         <Typography sx={{fontSize: "20px", lineHeight: "20px", marginTop:"-5rem", color: "#252423"}} variant="body2" color="text.secondary">
