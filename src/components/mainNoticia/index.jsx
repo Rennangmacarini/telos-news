@@ -16,7 +16,7 @@ import vision from './vision.png'
 
 import "./styles.css";
 
-export function MainNoticia() {
+export default function MainNoticia() {
   return (
     <>
       <div className="global">

@@ -1,18 +1,8 @@
-import './App.css';
-import { Banner } from './components/banner';
-import HeaderNoticia from './components/headerNoticia';
-import { Noticia } from './pages/Noticia';
-
+import AppRoutes from './routes';
 
 function App() {
   return (
-    <div className="App">
-      <HeaderNoticia/>
-      <Banner/>
-      <div className="mainScroll"> 
-       <Noticia/>
-      </div>
-    </div>
+    <AppRoutes/>
   );
 }
 

@@ -12,7 +12,7 @@ import imgFour from './Rectangle-230.png'
 
 const animation = { duration: 50000, easing: (t) => t }
 
-export function Carousel() {
+export default function Carousel() {
   const [sliderRef] = useKeenSlider({
     loop: true,
     renderMode: "performance",
