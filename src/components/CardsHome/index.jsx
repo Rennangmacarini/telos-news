@@ -6,6 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Logo from './image-43.png'
+import { Link } from 'react-router-dom';
 
 export default function CardsHome({text}) {
   return (
@@ -24,7 +25,7 @@ export default function CardsHome({text}) {
       <CardActions
       sx={{borderTop: "1px solid #CAC4D0", padding: "13px 0px"}}
       >
-        <Button sx={{ background: "#6750A4", padding: "11px 25px", color: "white", fontWeight: "bold", borderRadius: "180px"}} size="small">Ler Agora</Button>
+        <Link to="./Noticia" style={{ background: "#6750A4", padding: "11px 25px", color: "white", fontWeight: "bold", borderRadius: "180px", textDecoration: "none"}} size="small">Ler Agora</Link>
       </CardActions>
     </Card>
   );

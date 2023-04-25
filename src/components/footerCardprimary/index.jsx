@@ -8,6 +8,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 export default function FooterCardprimary({title, image, description}) {
   return (
@@ -34,9 +35,9 @@ export default function FooterCardprimary({title, image, description}) {
          {description}
         </Typography>
         <Typography sx={{display: "flex", justifyContent: "end"}}> 
-        <Button sx={{ padding: "10px 24px", backgroundColor: "#6750A4", color: "white", fontWeight: "bold", borderRadius: "140px"}} href="#contained-buttons">
+        <Link to="/Noticia" style={{ padding: "10px 24px", backgroundColor: "#6750A4", color: "white", fontWeight: "bold", borderRadius: "140px", textDecoration: "none"}} href="#contained-buttons">
           ler agora
-        </Button>
+        </Link>
         </Typography>
       </CardContent>
     </Card>

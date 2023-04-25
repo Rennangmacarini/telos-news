@@ -4,15 +4,16 @@ import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Logo from "./image-46.png"
+import { Link } from 'react-router-dom';
 
 export default function SectionCardSegundary({button}) {
 
   return (
     <Card sx={{ display: 'flex', alignItems: "flex-end", backgroundColor: "#FEF7FF;" , borderRadius: "38px"}}>
       <Box sx={{ display: 'flex', flexDirection: 'column', padding: "0px 140px 0px 40px" }}>
-        <Button sx={{ padding: "15px 30px", backgroundColor: "#6750A4", color: "white", fontWeight: "bold", borderRadius: "140px", marginBottom: "40px"}} href="#contained-buttons">
+        <Link to="./Noticia" style={{ padding: "15px 30px", backgroundColor: "#6750A4", color: "white", fontWeight: "bold", borderRadius: "140px", marginBottom: "40px", textDecoration: "none"}} href="#contained-buttons">
           {button}
-        </Button>
+        </Link>
       </Box>
       <CardMedia
         component="img"

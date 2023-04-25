@@ -8,7 +8,6 @@ export function Home() {
     <>
      
       <div className="app">
-       <Link to="/Noticia">Noticia</Link>
         <Header />
         <div className="mainScroll">
           <RouteHome />
